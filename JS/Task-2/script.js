@@ -72,11 +72,11 @@
 
 
 //  ---------Problem 9--------
-for(let x=0; x<3; x++){
-    let num= prompt("Enter a valid number")
-    console.log(+ num);
-} 
+// for(let x=0; x<3; x++){
+//     let num= prompt("Enter a valid number")
+//     console.log(+ num);
+// } 
 
 
 //  ---------Problem 10--------
-console.log(Math.random()*10);
+// console.log(Math.random()*10);

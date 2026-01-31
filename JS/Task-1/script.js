@@ -90,3 +90,4 @@ console.log(a+b+c); //63
 console.log(a+ (b+c) ); //423
 console.log( (a+b) * Number(c) ); //18
 console.log(a+b*c ); //10
+console.log(typeof(null));

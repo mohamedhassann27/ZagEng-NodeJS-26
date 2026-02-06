@@ -1,82 +1,94 @@
-// ---------Problem 1--------
-// const str= prompt("Enter a string.")
-// console.log(str.length);
-// console.log(str[0]);
-// console.log(str[str.length-1]);
+// -------proplem 1 ---------
+// let x = 5;
+// let y = 4;
+
+// console.log(x+y); //9
+// console.log(x-y); //1
+// console.log(x*y + 3); //23
+// console.log(x + y * 2); // 13
+// console.log((x + y) * 2); // 18
+// console.log(x/y); //1.25
+// console.log(x%y); //1
+// console.log((x-2) * (y+1)); //15
+
+// -------proplem 2 ---------
+// let a = 10; //number
+// let b = "Hello"; //string
+// let c = true; //boolean
+// let d = {name:"Backend"}; // object
+
+// console.log(typeof(a));
+// console.log(typeof(b));
+// console.log(typeof(c));
+// console.log(typeof(d));
 
 
-// ---------Problem 2--------
-// let str= prompt("Enter a string with extra spaces at the beginning and end.")
+// -------proplem 3 ---------
+// let x = 7;
+// let y = 10;
 
-// console.log(str);
-// str= str.trim()
-// console.log(str);
-// console.log(str.toUpperCase());
-
-
-// ---------Problem 3--------
-// let arr=[]
-// for(let x=0; x<5; x++){
-//     let num= prompt("Enter a valid number")
-//     arr.push(num)
-// }
-// console.log(arr.length);
-// console.log(arr[0]);
-// console.log(arr[arr.length-1]);
+// console.log(x>y); //false
+// console.log(x>=y); //false
+// console.log(x<y); //true
+// console.log(x<=y); //true
+// console.log(x==y); //false
+// console.log(x===y); //false
+// console.log(x!=y); //true
+// console.log(x!==y); //true
 
 
-// ---------Problem 4--------
-// for(let i=1 ;i<=20; i++){
-//     i==10? null : console.log(i);
-// }
+// -------proplem 4 ---------
+// let a = true;
+// let b = false;
+
+// console.log(a&&b); //false
+// console.log(a||b); //true
+// console.log(!a); // false
+// console.log(a && !b); //true
+// console.log(!a || !b); //true
 
 
-//  ---------Problem 5--------
-// let arr=[]
-// let i=0;
-// while(i<5){
-//     let num= prompt("Enter a valid number")
-//     arr.push(num)
-//     i++
-// }
-// for(let i=0; i<arr.length ; i++){
-//     if(arr[i]>6) console.log(arr[i]);
-// }
+// -------proplem 5 ---------
+// let num = 20; 
+// let str = " years old";
+
+// console.log(num + str); //20 years old
+// console.log("Age: " + num); //age :20
+// console.log("Result = " + (num + 5)); //Result = 25
+// console.log("20" + 10); //2010
+// console.log((20 + 10) + " days"); //30 days
+// console.log("JS" + " " + "Course"); //JS Course
 
 
-//  ---------Problem 6--------
-// let num= prompt("Enter a valid number")
-// num>0? console.log('positive'): num<0? console.log('Negative'): console.log("Zero");
+// -------proplem 6 ---------
+let n = 10;
+
+console.log(n += 5); //15
+console.log(n -= 3); //7
+console.log(n *= 2); //20
+console.log(n /= 5); //2
+console.log(n %= 4); //2
 
 
-//  ---------Problem 7--------5
-// let arr=[]
-// for(let x=0; x<5; x++){
-//     let value= prompt("Enter a value")
-//     arr.push(value)
-// } 
-// for(let i=0; i<arr.length ; i++){
-//     console.log(Number(arr[i]));
-// }
+// -------proplem 7 ---------
+let x = 8;
+
+console.log(++x); //9
+x++
+console.log(x); //10
+console.log(--x); //9
+x--
+console.log(x); //8
 
 
-//  ---------Problem 8--------
-// const sentence= prompt("Enter a sentence")
+// -------proplem 8 ---------
+let a = 4;
+let b = 2;
+let c = "3";
 
-// if(sentence.includes('JavaScript')){
-//     console.log('Found');
-// }else{
-//     console.log('Not Found');
-    
-// }
-
-
-//  ---------Problem 9--------
-// for(let x=0; x<3; x++){
-//     let num= prompt("Enter a valid number")
-//     console.log(+ num);
-// } 
-
-
-//  ---------Problem 10--------
-// console.log(Math.random()*10);
+const count = document.querySelector("p")
+console.log(a+b+c); //63
+console.log(a+ (b+c) ); //423
+console.log( (a+b) * Number(c) ); //18
+console.log(a+b*c ); //10
+console.log(typeof(null));

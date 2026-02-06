@@ -1,69 +1,82 @@
-// --------Problem 1----------
-// let arr=["ahmed", "sara"]
-// function reverseToUpper(arr){
-//     return arr.map((item)=>item.toUpperCase())
+// ---------Problem 1--------
+// const str= prompt("Enter a string.")
+// console.log(str.length);
+// console.log(str[0]);
+// console.log(str[str.length-1]);
+
+
+// ---------Problem 2--------
+// let str= prompt("Enter a string with extra spaces at the beginning and end.")
+
+// console.log(str);
+// str= str.trim()
+// console.log(str);
+// console.log(str.toUpperCase());
+
+
+// ---------Problem 3--------
+// let arr=[]
+// for(let x=0; x<5; x++){
+//     let num= prompt("Enter a valid number")
+//     arr.push(num)
 // }
-// console.log(reverseToUpper(arr));
+// console.log(arr.length);
+// console.log(arr[0]);
+// console.log(arr[arr.length-1]);
 
 
-// --------Problem 2----------
-// const students=[
-//     { name: "Ahmed", score: 80 },
-//     { name: "Sara", score: 40 }
-// ]
-// function isPassed(arr){
-//     arr.map((obj)=>{
-//         return obj.score>50?obj.passed=true: obj.passed=false;
-//     })
+// ---------Problem 4--------
+// for(let i=1 ;i<=20; i++){
+//     i==10? null : console.log(i);
 // }
-// isPassed(students)
-// console.log(students);
 
 
-
-// --------Problem 3----------
-// let arr= ["hi", "hello", "welcome"]
-// function filteration(arr){
-//     return arr.filter((item)=> item.length>4? true: false)
+//  ---------Problem 5--------
+// let arr=[]
+// let i=0;
+// while(i<5){
+//     let num= prompt("Enter a valid number")
+//     arr.push(num)
+//     i++
 // }
-// console.log(filteration(arr))
-
-
-// --------Problem 4----------
-// let arr=[10,20,30]
-// function reducing(arr){
-//     return arr.reduce((cur,next)=>cur+next)/2
+// for(let i=0; i<arr.length ; i++){
+//     if(arr[i]>6) console.log(arr[i]);
 // }
-// console.log(reducing(arr));
 
 
-// --------Problem 5----------
-// const arr=[
-//     { name: "Ahmed", age: 23 },
-//     { name: "Sara", age: 16 },
-//     { name: "Mona", age: 19}
-// ]
-// function filteration(arr){
-//     return arr.filter((arr)=> arr.age>=18? true: false)
+//  ---------Problem 6--------
+// let num= prompt("Enter a valid number")
+// num>0? console.log('positive'): num<0? console.log('Negative'): console.log("Zero");
+
+
+//  ---------Problem 7--------5
+// let arr=[]
+// for(let x=0; x<5; x++){
+//     let value= prompt("Enter a value")
+//     arr.push(value)
+// } 
+// for(let i=0; i<arr.length ; i++){
+//     console.log(Number(arr[i]));
 // }
-// console.log(filteration(arr));
 
 
-// --------Problem 6----------
-// let num= Number(prompt("type a valid number"))
-// function factorial(num){
-//     let fact=1;
-//     for(let i=2; i<=num; i++){
-//         fact*=i
-//     }
-//     return fact
+//  ---------Problem 8--------
+// const sentence= prompt("Enter a sentence")
+
+// if(sentence.includes('JavaScript')){
+//     console.log('Found');
+// }else{
+//     console.log('Not Found');
+    
 // }
-// console.log(factorial(num));
 
 
-// --------Problem 7----------
-// let arr=[1,1,2,,1]
-// function unique(arr){
-//     return arr.filter(num => arr.indexOf(num) === arr.lastIndexOf(num));
-// }
-// console.log(unique(arr));
+//  ---------Problem 9--------
+// for(let x=0; x<3; x++){
+//     let num= prompt("Enter a valid number")
+//     console.log(+ num);
+// } 
+
+
+//  ---------Problem 10--------
+// console.log(Math.random()*10);
